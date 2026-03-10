@@ -7,6 +7,7 @@ body {
   color: #434455;
   margin: 0;
   padding: 0;
+  background-color: #ffffff;
 }
 
 a {
@@ -27,6 +28,7 @@ ol {
 }
 
 .logo-header {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
 
@@ -45,7 +47,8 @@ ol {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.11111;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
 }
@@ -57,7 +60,7 @@ ol {
 .hero-button {
   cursor: pointer;
   background-color: #4d5ae5;
-  color: #f4f4fd;
+  color: #ffffff;
   font-weight: 500;
   letter-spacing: 0.04em;
   text-align: center;
@@ -74,6 +77,7 @@ ol {
 
   /* line-height: 40px; */
   line-height: 1.11111;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
@@ -106,6 +110,7 @@ ol {
 
   /* line-height: 24px; */
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -117,4 +122,8 @@ ol {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
 }
