@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #434455;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul ol {
+  list-style-type: none;
+}
+
+/*                                Header*/
+
+.navigate {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.logo-header {
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.span-logo {
+  color: #4d5ae5;
+}
+
+/*                               hero page */
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-button {
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+/*                               Team cards*/
+.team-box {
+  background-color: #f4f4fd;
+}
+
+.sub-title {
+  font-weight: 700;
+  font-size: 36px;
+
+  /* line-height: 40px; */
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+/*                              footer  */
+
+.page-footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+.logo-footer {
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
