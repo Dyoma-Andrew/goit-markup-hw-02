@@ -27,7 +27,7 @@ ol {
   color: #2e2f42;
 }
 
-.logo-header {
+.logo-hdr {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -58,6 +58,8 @@ ol {
 }
 
 .hero-button {
+  font-size: 16px;
+  line-height: 1.5;
   cursor: pointer;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -90,10 +92,10 @@ ol {
 /*                              footer  */
 
 .page-footer {
-  color: #f4f4fd;
   background-color: #2e2f42;
 }
-.logo-footer {
+.logo-ftr {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
 
@@ -103,7 +105,17 @@ ol {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
 
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/*                              titles   */
 .block-title {
   font-weight: 500;
   font-size: 20px;
@@ -126,4 +138,8 @@ ol {
 
 .contacts {
   font-style: normal;
+}
+.link-cont:focus,
+.link-cont:hover {
+  color: #404bbf;
 }
