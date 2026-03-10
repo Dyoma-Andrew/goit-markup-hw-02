@@ -14,11 +14,12 @@ a {
   color: inherit;
 }
 
-ul ol {
+ul,
+ol {
   list-style-type: none;
 }
 
-/*                                Header*/
+/*                                Header */
 
 .navigate {
   font-weight: 500;
@@ -44,7 +45,7 @@ ul ol {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.11111;
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
@@ -63,7 +64,7 @@ ul ol {
   text-align: center;
 }
 
-/*                               Team cards*/
+/*                               Team cards */
 .team-box {
   background-color: #f4f4fd;
 }
@@ -78,7 +79,12 @@ ul ol {
   text-align: center;
   color: #2e2f42;
 }
-
+.team-card-text {
+  text-align: center;
+}
+.team-card {
+  background-color: #ffffff;
+}
 /*                              footer  */
 
 .page-footer {
@@ -94,4 +100,24 @@ ul ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+
+.block-title {
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
